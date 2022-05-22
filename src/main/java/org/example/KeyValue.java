@@ -1,6 +1,9 @@
 package org.example;
+
 // good class practice
+
 public class KeyValue<K, V> {
+
     // fields final
     final K key;
     final V value;
@@ -15,4 +18,5 @@ public class KeyValue<K, V> {
     public static <K, V> KeyValue<K, V> of(K key, V value){
         return new KeyValue<>(key, value);
     }
+
 }

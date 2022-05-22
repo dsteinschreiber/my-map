@@ -38,7 +38,7 @@ public class MyFirstMap<K, V> implements MyMap<K, V> {
     public MySet<K> keySet() {
         //TODO
 
-        MySet<K> result = GenericHashSet.of(1);
+        MySet<K> result = GenericHashSet.asOfSize(100);
 
         for(KeyValue<K, V> kv : this.keyValues){
             result.add(kv.key);

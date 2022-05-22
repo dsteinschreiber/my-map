@@ -26,10 +26,12 @@ public class MyMapTest {
         }
 
 
+        System.out.println();
 
-//        for (String key : wordCounter.keySet()){
-//            System.out.println(key + " : " + wordCounter.translate(key));
-//        }
+
+        for (String key : wordCounter.keySet()){
+            System.out.println(key + " : " + wordCounter.translate(key));
+        }
 
     }
 
